@@ -24,3 +24,5 @@
 6. **Validação de Props**:
     O componente *Task* utiliza a biblioteca *prop-types* para garantir a validação dos dados recebidos.
 
+![alt text](image.png)
+
