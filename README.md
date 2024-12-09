@@ -1,28 +1,27 @@
-# Brenno Elimar - 04/12/2024
+# Brenno Elimar 06/12/2024
 
-1. **Configuração do Projeto**: 
-    Criação de um projeto React utilizando *create-react-app*
-    Instalação de dependências adicionais como *prop-types*
+## Funcionalidades
 
-2. **Estrutura do Projeto**:
-    Criação de um layout com dois contêineres principais:
-      Um cabeçalho para o título do projeto
-      Uma área para exibição da lista de tarefas
+- **Botão Interativo**: Um botão que exibe um alerta e muda de texto ao ser clicado
+- **Componentização**: Inclui os componentes *Header* e *TaskContainer* 
 
-3. **Componentização**:
-    Criação de componentes independentes:
-      **Header**: Responsável por exibir o título do projeto
-      **TaskContainer**: Gerencia e exibe a lista de tarefas
-      **Task**: Renderiza individualmente cada tarefa utilizando *props* para exibir título e descrição
+## Estrutura do Código
 
-4. **Uso de React.Fragment**:
-    Implementado no componente *TaskContainer* para agrupar múltiplos elementos JSX sem adicionar nós extras no DOM.
+- **Estado**: Usa o hook *useState* para gerenciar o texto do botão
+- **Evento**: A função *handleClick* manipula o clique do botão, exibindo um alerta e atualizando o estado
+- **Estilização**: O botão é estilizado inline com propriedades como cor de fundo, bordas arredondadas e fonte personalizada
 
-5. **Listagem Dinâmica**:
-    Exibição de uma lista de tarefas fictícias utilizando o método *map()* do JavaScript.
+## Como Executar
 
-6. **Validação de Props**:
-    O componente *Task* utiliza a biblioteca *prop-types* para garantir a validação dos dados recebidos.
+1. Instale as dependências com:
+   npm install
 
-![alt text](image.png)
+2. Inicie o servidor de desenvolvimento:
+   npm start
 
+## Próximos Passos
+
+- Expandir os componentes *Header* e *TaskContainer*
+- Melhorar a estilização movendo-a para arquivos CSS
+
+![foto do botão](image-1.png)
